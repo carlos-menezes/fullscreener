@@ -3,6 +3,7 @@ name = "fullscreener"
 version = "0.1.0"
 edition = "2021"
 authors = ["Carlos Menezes <carlos.dm.menezes@gmail.com>"]
+license = "MIT"
 description = "A TUI that lists open windows and toggles any of them into borderless fullscreen."
 
 [[bin]]
