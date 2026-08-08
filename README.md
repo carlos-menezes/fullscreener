@@ -38,4 +38,4 @@ cargo run --release
 | `↑` `↓`     | Move selection                                      |
 | `Enter`       | Toggle borderless fullscreen on the selected window |
 | `r`           | Refresh the window list                             |
-| `Esc`/`q`     | Quit (restores every window you fullscreened)       |
+| `Esc`     | Quit (restores every window you fullscreened)       |

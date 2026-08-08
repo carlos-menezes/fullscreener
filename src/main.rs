@@ -148,7 +148,7 @@ fn run_app(terminal: &mut Terminal<CrosstermBackend<io::Stdout>>, app: &mut App)
                     continue;
                 }
                 match key.code {
-                    KeyCode::Esc | KeyCode::Char('q') => break,
+                    KeyCode::Esc => break,
                     KeyCode::Up => app.previous(),
                     KeyCode::Down => app.next(),
                     KeyCode::Char('r') => app.refresh(),
