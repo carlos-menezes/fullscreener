@@ -1,0 +1,28 @@
+[package]
+name = "fullscreener"
+version = "0.1.0"
+edition = "2021"
+authors = ["Carlos Menezes <carlos.dm.menezes@gmail.com>"]
+description = "A TUI that lists open windows and toggles any of them into borderless fullscreen."
+
+[[bin]]
+name = "fullscreener"
+path = "src/main.rs"
+
+[dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+
+[dependencies.windows]
+version = "0.58"
+features = [
+    "Win32_Foundation",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_Graphics_Gdi",
+    "Win32_System_Threading",
+    "Win32_System_ProcessStatus",
+]
+
+[profile.release]
+opt-level = 3
+lto = true
