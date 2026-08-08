@@ -4,7 +4,7 @@
 
 ![demo.gif](./.github/demo.gif)
 
-A terminal app that lets you toggle any open window into borderless fullscreen and back
+A terminal app that lets you toggle any open window into borderless fullscreen and back to it's original state.
 
 ## Install
 
